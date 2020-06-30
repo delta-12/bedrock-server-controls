@@ -14,7 +14,7 @@ Users are authenticated using passport-jwt
 
 Note: keys.js is not included in config directory for security purposes
 
-## Fronted: bedrock-controls
+## Frontend: bedrock-controls
 
 React web application
 
