@@ -240,40 +240,6 @@ code {
 
 
 
-.content {
-  width: 95%;
-  margin: 0 auto;
-  color: #333;
-  align-items: left;
-  text-align: left;
-}
-.content h2 {
-  margin: 0;
-  padding: 25px 0;
-  font-size: 22px;
-  border-bottom: 1px solid #e0e0e3;
-  /* color: #333; */
-  color: #5b6574;
-}
-.content > p, .content > div {
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
-  margin: 25px 0;
-  padding: 25px;
-  background-color: #fff;
-}
-.content > p table td, .content > div table td {
-  padding: 5px;
-}
-.content > p table td:first-child, .content > div table td:first-child {
-  font-weight: bold;
-  color: #333;
-  padding-right: 15px;
-}
-.content > div p {
-  padding: 5px;
-  margin: 0 0 10px 0;
-}
-
 .cards {
   margin-top: 15px;
   display: grid;
@@ -326,4 +292,9 @@ code {
 }
 .headerCard > p, .headerCard > div {
   padding: .5rem;
+}
+@media screen and (orientation:portrait) {
+  .cards {
+    grid-template-columns: repeat(1, minmax(20%, 1fr));
+  }
 }
