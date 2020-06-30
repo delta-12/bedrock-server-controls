@@ -1,0 +1,329 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', */
+    /* 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', */
+    /* Arial, sans-serif; */
+  /* font-family: Tahoma, 'Geneva', sans-serif; */
+  font-family: "Inter", "Helvetica Neue", Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #333; */
+  /* background-color: #435165; */
+  color: whitesmoke;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  /* color: #222E3C; */
+  color: black;
+  align-items: left;
+  text-align: left;
+}
+
+
+
+
+
+.appDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (orientation:portrait) {
+  .login {
+    width: 75%;
+  }
+  .landing {
+    width: 75%;
+  }
+}
+.startButton {
+  background-color: #4CAF50;
+  color: white;
+  /* margin-top: 2%; */
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 5%;
+}
+.startButton:hover {
+  background-color: #45a049;
+}
+.stopButton {
+  background-color: #f44336;
+  color: white;
+  /* margin-top: 2%; */
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 5%;
+}
+.stopButton:hover {
+  background-color: #F40000;
+}
+.landing {
+  width: 400px;
+  /* background-color: #ffffff; */
+
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.link {
+  width: 85%;
+  padding: 15px;
+  margin: 20px;
+  /* background-color: #3274d6; */
+  background-color: #222E3C;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+.link:hover {
+  /* background-color: #2868c7; */
+  background-color: #14202E;
+  transition: background-color 0.2s;
+}
+.landing h3 {
+  color: #333;
+}
+.red-text {
+  color: red;
+}
+.headerStyle {
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0%;
+  margin-bottom: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  color: whitesmoke;
+  background-color: #222E3C;
+}
+
+
+
+.login {
+  width: 400px;
+  background-color: #ffffff;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.25);
+  margin: 100px auto;
+}
+.login h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+.login form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+.login label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+}
+.login input[type="password"], .login input[type="text"], .login input[type="email"] {
+  width: 400px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+.login input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  /* background-color: #3274d6; */
+  background-color: #222E3C;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover {
+  /* background-color: #2868c7; */
+  background-color: #14202E;
+  transition: background-color 0.2s;
+}
+.login p {
+  color: #333;
+}
+
+
+
+
+
+.navtop {
+  /* background-color: #2f3947; */
+  /* background-color: #3274d6; */
+  background-color: #222E3C;
+  height: 60px;
+  width: 100%;
+  border: 0;
+}
+.navtop div {
+  display: flex;
+  margin: 0 auto;
+  /* width: 1000px; */
+  height: 100%;
+  padding-left: 10px;
+}
+@media screen and (orientation:portrait) {
+  .navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+  }
+}
+.navtop div h1, .navtop div a {
+  display: inline-flex;
+  align-items: center;
+}
+.navtop div h1 {
+  flex: 1;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  color: whitesmoke;
+  font-weight: normal;
+}
+.navtop div button {
+  padding: 0 20px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+.navtop div button i {
+  padding: 2px 8px 0 0;
+}
+.navtop div button:hover {
+  color: #eaebed;
+}
+
+
+
+
+
+.content {
+  width: 95%;
+  margin: 0 auto;
+  color: #333;
+  align-items: left;
+  text-align: left;
+}
+.content h2 {
+  margin: 0;
+  padding: 25px 0;
+  font-size: 22px;
+  border-bottom: 1px solid #e0e0e3;
+  /* color: #333; */
+  color: #5b6574;
+}
+.content > p, .content > div {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+  margin: 25px 0;
+  padding: 25px;
+  background-color: #fff;
+}
+.content > p table td, .content > div table td {
+  padding: 5px;
+}
+.content > p table td:first-child, .content > div table td:first-child {
+  font-weight: bold;
+  color: #333;
+  padding-right: 15px;
+}
+.content > div p {
+  padding: 5px;
+  margin: 0 0 10px 0;
+}
+
+.cards {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  width: 95%;
+}
+
+.cards > p, .cards > div {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+  /* border: 2px solid #e7e7e7;
+  border-radius: 4px; */
+  padding: .75rem;
+  color: #333;
+  align-items: left;
+  text-align: left;
+}
+
+.cards h2 {
+  margin-bottom: 5px;
+  /* padding: 25px 0; */
+  font-size: 22px;
+  color: #5b6574;
+}
+
+.headerCards {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  width: 95%;
+}
+.headerCards > p, .headerCards > div {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+  /* border: 2px solid #e7e7e7;
+  border-radius: 4px; */
+  padding: .5rem;
+  color: #333;
+  /* align-items: left;
+  text-align: left; */
+}
+.headerCards h1 {
+  margin: 0;
+  padding: .5rem;
+  font-size: 30px;
+  color: #5b6574;
+  float: left;
+}
+.headerCard > p, .headerCard > div {
+  padding: .5rem;
+}
