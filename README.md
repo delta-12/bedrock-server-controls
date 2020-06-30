@@ -6,7 +6,7 @@ Register as a user and login to view your dashboard containing information about
 
 This application was built using the MERN stack
 
-## Backend- backend
+## Backend: backend
 
 MongoDB Atlas database, Node.js, and Express
 
@@ -14,7 +14,7 @@ Users are authenticated using passport-jwt
 
 Note: keys.js is not included in config directory for security purposes
 
-## Fronted- bedrock-controls
+## Fronted: bedrock-controls
 
 React web application
 
