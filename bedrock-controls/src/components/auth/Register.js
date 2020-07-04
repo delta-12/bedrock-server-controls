@@ -13,6 +13,7 @@ class Register extends React.Component {
     this.state = {
       username: "",
       email: "",
+      server: "",
       password: "",
       password2: "",
       errors: {}
@@ -45,6 +46,7 @@ class Register extends React.Component {
     const newUser = {
       username: this.state.username,
       email: this.state.email,
+      server: this.state.server,
       password: this.state.password,
       password2: this.state.password2
     }
@@ -67,6 +69,10 @@ class Register extends React.Component {
             <span className="red-text">{errors.email}</span><br />
             <label>
               <input className={classnames("", {invalid: errors.email})} onChange={this.onChange} value={this.state.email} placeholder="Email" error={errors.email} id="email" type="email"/>
+            </label>
+            <span className="red-text">{errors.server}</span><br />
+            <label>
+              <input className={classnames("", {invalid: errors.server})} onChange={this.onChange} value={this.state.server} placeholder="Server Name" error={errors.server} id="server" type="text"/>
             </label>
             <span className="red-text">{errors.password}</span><br />
             <label>

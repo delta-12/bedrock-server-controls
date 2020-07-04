@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Address extends React.Component {
+class Server extends React.Component {
 
   render() {
     return (
@@ -12,4 +12,4 @@ class Address extends React.Component {
 
 }
 
-export default Address
+export default Server

@@ -6,7 +6,7 @@ class Players extends React.Component {
     return (
       <div>
         <h2>Players</h2>
-        <code>{this.props.players}</code>
+        <code>{this.props.onlinePlayers}/{this.props.maxPlayers} Online</code>
       </div>
     )
   }

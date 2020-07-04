@@ -49,7 +49,6 @@ class Login extends React.Component {
     this.props.loginUser(userData) // since we handle the redirect within our component, we don't need to pass in this.props.history as a parameter
   }
 
-  // fix email and password errors as to not reveal which is incorrect
   render() {
     const { errors } = this.state
 

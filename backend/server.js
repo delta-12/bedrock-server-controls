@@ -1,6 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const passport = require("passport")
+const servers = require("./routes/api/servers")
 const users = require("./routes/api/users")
 const app = express()
 const path = require('path')
@@ -32,6 +33,7 @@ app.use(passport.initialize())
 require("./config/passport")(passport)
 // Routes
 app.use("/api/users", users)
+app.use("/api/servers", servers)
 
 // Set static folder
 app.use(express.static('../bedrock-controls/build'))
