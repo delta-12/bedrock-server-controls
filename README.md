@@ -12,10 +12,16 @@ MongoDB Atlas database, Node.js, and Express
 
 Users are authenticated using passport-jwt
 
-Note: keys.js is not included in config directory for security purposes
+Note: keys.js is not included in config directories for security purposes
 
 ## Frontend: bedrock-controls
 
 React web application
 
 Once logged in, users can view the dashboard(s) for the Minecraft Bedrock server(s) they play on
+
+## server-handler/handler
+
+Handles the Minecraft Bedrock server
+
+See `server-handler/handler/README.md` for more information and usage
