@@ -122,7 +122,7 @@ class Dashboard extends React.Component {
             <Status id={user.id} online={this.state.online}/>
             <Connect address={this.state.address} port={this.state.port}/>
             <Software software={this.state.software} version={this.state.version}/>
-            <Share baseURL="http://3.128.29.141"/>
+            <Share baseURL="https://bedrockcontrols.sytes.net"/>
           </div>
         </div>
       )
