@@ -100,7 +100,7 @@ class Dashboard extends React.Component {
             <Connect address={this.state.address} port={this.state.port}/>
             <Players onlinePlayers={this.state.onlinePlayers} maxPlayers={this.state.maxPlayers}/>
             <Software software={this.state.software} version={this.state.version}/>
-            <Share baseURL="http://3.128.29.141"/>
+            <Share baseURL="https://bedrockcontrols.sytes.net"/>
           </div>
         </div>
       )
