@@ -2,4 +2,8 @@ backend/config/keys.js
 github-bedrock-server-controls
 github-bedrock-server-controls.pub
 TODO_Notes.txt
-server-handler/*
+server-handler/gitignore
+server-handler/handler/config/keys.js
+server-handler/handler/config/serverProperties.js
+server-handler/handler/server.properties
+server-handler/handler/test.js
