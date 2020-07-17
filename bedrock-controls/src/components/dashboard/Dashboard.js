@@ -77,7 +77,7 @@ class Dashboard extends React.Component {
           error: err.response.data.error
         })
       )
-    this.intervalID = setTimeout(this.getData.bind(this), 5000);
+    this.intervalID = setTimeout(this.getData.bind(this), 5000)
   }
 
   render() {
